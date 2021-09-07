@@ -1,4 +1,4 @@
-FROM fedora:34
+FROM fedora:latest
 LABEL maintainer "Tsvetan Gerov <tsvetan@gerov.eu>"
 RUN dnf -y update
 RUN dnf -y install bind-utils net-tools vim iputils mtr git \
